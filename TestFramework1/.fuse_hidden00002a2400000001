@@ -1,0 +1,25 @@
+<xml>
+	<controlador>
+	<nombre-controlador>controlador1</nombre-controlador>
+		<accion>
+			<nombre-accion>comprar</nombre-accion>
+			<ruta-accion>accion1</ruta-accion>
+			<vista-accion>vista1.html</vista-accion>
+		</accion>
+		
+	</controlador>
+	<controlador>
+
+	<nombre-controlador>controlador2</nombre-controlador>
+		<accion>
+			<nombre-accion>regalar</nombre-accion>
+			<ruta-accion>accion2</ruta-accion>
+			<vista-accion>vista2.html</vista-accion>
+		</accion>
+		<accion>
+			<nombre-accion>vender</nombre-accion>
+			<ruta-accion>accion3</ruta-accion>
+			<vista-accion>vista3.html</vista-accion>
+		</accion>		
+	</controlador>
+</xml>

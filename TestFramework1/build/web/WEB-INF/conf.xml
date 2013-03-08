@@ -1,0 +1,33 @@
+<xml>
+	<controlador>
+	<nombre-controlador>controlador1</nombre-controlador>
+        <nombre-controlador-servlet>com.mw.testframework1.controladores.Controlador1</nombre-controlador-servlet>
+		<accion>
+			<nombre-accion>comprar</nombre-accion>
+                        <nombre-accion-servlet>comprarProducto</nombre-accion-servlet>
+			<vista-accion>vista1.html</vista-accion>
+		</accion>
+                <accion>
+			<nombre-accion>detalle</nombre-accion>
+                        <nombre-accion-servlet>detalleProducto</nombre-accion-servlet>
+			<vista-accion>vista1.html</vista-accion>
+		</accion>
+		
+	</controlador>
+	<controlador>
+
+	<nombre-controlador>controlador2</nombre-controlador>
+        <nombre-controlador-servlet>com.mw.testframework1.controladores.Controlador2</nombre-controlador-servlet>
+		<accion>
+			<nombre-accion>regalar</nombre-accion>
+			<nombre-accion-servlet>regalarProducto</nombre-accion-servlet>
+			<vista-accion>vista2.html</vista-accion>
+		</accion>
+		<accion>
+			<nombre-accion>vender</nombre-accion>
+			<nombre-accion-servlet>venderProducto</nombre-accion-servlet>
+			<vista-accion>vista3.html</vista-accion>
+		</accion>		
+	</controlador>
+
+</xml>
